@@ -18,5 +18,5 @@
 ### Integration Tests
 **mvn verify**
 
-This runs the test with Jetty
+This runs the integration tests with Jetty
 
