@@ -17,6 +17,15 @@
 
 ### Integration Tests
 **mvn verify**
+#### This runs the integration tests with Jetty. So far these tests verify behaviour for:
+- Whether the server is up
+- Behaviour when accessing a protected resource without the required permissions
+- Behaviour when accessing a protecte resource with the required permissions 
 
-This runs the integration tests with Jetty
+## What this demo "proofs"
+- JAX-RS (jersey) with Tomcat or Jetty, either as war-deployment or embedded server
+- @provider  (used for cors-filters and Exception mappers)
+- Unit-test with maven
+- Integration test with maven and (in the provided code) Jetty
+
 
