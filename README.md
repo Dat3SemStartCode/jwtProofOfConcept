@@ -27,5 +27,7 @@
 - @provider  (used for cors-filters and Exception mappers)
 - Unit-test with maven
 - Integration test with maven and (in the provided code) Jetty
+- Simple JWT-based authentication and 
+- Simple annotation based authorization
 
 
