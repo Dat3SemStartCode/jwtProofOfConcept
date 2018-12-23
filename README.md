@@ -3,7 +3,7 @@
 *Created from the Archetype: `jersey-quickstart-webapp`*
 
 ## Getting started:
-- Create a persistence.xml file. Name the persistence-unit: "pu"
+- Create a persistence.xml file. Name the persistence-unit: **pu**
 - Create a few test users: See the file `jwtdemo.utils.setupTestUsers.js`
 - Build the project, either from within Netbeans or with maven: **mvn clean**
 - Run the project in any of these ways:
