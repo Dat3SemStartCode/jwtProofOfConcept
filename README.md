@@ -5,7 +5,7 @@
 ## Getting started:
 - Create a persistence.xml file. Name the persistence-unit: **pu**
 - Create a few test users: See the file `jwtdemo.utils.setupTestUsers.js`
-- Build the project, either from within Netbeans or with maven: **mvn clean**
+- Build the project, either from within Netbeans or with maven: **mvn package**
 - Run the project in any of these ways:
    1. Via Netbeans and it's Tomcat (or whatever) server
    1. Via Jetty, and maven: mvn jetty:run
